@@ -28,3 +28,7 @@ The lab uses a multi-container Docker Compose design isolated within a private i
 ```bash
 git clone [https://github.com/gusthescripter/home_lab-stack_1.git](https://github.com/gusthescripter/home_lab-stack_1.git)
 cd home_lab-stack_1
+```
+## Tear Down
+* Use this command to clean up any dead Docker volumes hanging around.
+* docker compose down -v
